@@ -1,0 +1,20 @@
+Which built-in function is used to add a single element to the end of a Python **list**?|insert()|add()|append()|extend()|C
+Which operator is used to perform exponentiation in Python?|**|//|%|*|A
+What keyword is used to define a function in Python?|func|define|def|function|C
+Which of these is a valid way to create an empty **dictionary** in Python?|dict = []|dict = {}|dict = ()|dict = <dict>|B
+What is the time complexity of searching for an item in a Python **set** in the average case?|$O(n)$|$O(\log n)$|$O(1)$|$O(n^2)$|C
+Which loop structure is primarily used to iterate over a sequence (like a list or tuple) without explicit indexing?|while loop|do-while loop|for loop|goto loop|C
+What is the output of the statement: $\text{print}(\text{'Hello'}[1:4])$?|Hel|ell|ello|H|B
+Which method is used to remove all items from a Python list?|delete()|clear()|remove\_all()|pop\_all()|B
+What is $\mathbf{PEP 8}$?|A Python module for security|The official Python tutorial|A document providing style guidelines for Python code|A standard library for web development|C
+Which of the following is an immutable data type in Python?|List|Dictionary|Tuple|Set|C
+Which module must be imported to work with random numbers?|math|sys|os|random|D
+What is the purpose of the **\_\_init\_\_** method in a Python class?|To destroy an object when it's no longer needed|To initialize the attributes of an object|To define static methods|To import necessary modules|B
+If you want to read the entire contents of a file into a single string variable, which file method would you use?|readlines()|read()|readline()|get\_contents()|B
+What does the **pop()** method do on a Python list, by default?|Removes and returns the first element|Removes and returns the element at the specified index|Removes and returns the last element|Removes all elements|C
+What is the result of the expression: $5 // 2$?|2.5|2|3|1|B
+Which data type is used to store key-value pairs in Python?|List|Tuple|Dictionary|Array|C
+What does the **pass** statement do in Python?|It is used to exit a loop.|It signals the end of a function.|It is a null operation; nothing happens when it executes.|It is used to declare a variable.|C
+What is the output of the expression: $\text{bool}(0)$, $\text{bool}('')$, $\text{bool}([])$?|True, True, True|False, False, False|True, False, False|False, True, True|B
+Which method is used to get the value associated with a key in a dictionary, returning $\text{None}$ if the key is not found (instead of raising an error)?|find()|search()|get()|fetch()|C
+What is the output of the expression: $3 * 1 * * 3$?|27|9|3|1|C
