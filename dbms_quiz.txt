@@ -1,0 +1,20 @@
+Which set of properties ensures that database transactions are processed reliably?|Data, Consistency, Isolation, Durability|Atomicity, Consistency, Integrity, Durability|Atomicity, Consistency, Isolation, Durability|Access, Control, Integrity, Data|C
+A **Primary Key** is composed of one or more attributes that uniquely identify a row in a relation. What type of constraint is this?|Domain Constraint|Referential Integrity Constraint|Entity Integrity Constraint|Key Constraint|C
+Which SQL command is used to remove a relation (table) from the database schema?|DELETE|DROP|REMOVE|ALTER|B
+The process of decomposing a relation into a set of smaller relations that are structurally simpler is known as:|Query Optimization|Normalization|Data Warehousing|Indexing|B
+A relation is in **Second Normal Form (2NF)** if it is in 1NF and what other condition is met?|It contains no transitive dependencies.|Every non-prime attribute is fully functionally dependent on the primary key.|All attributes depend on the entire primary key.|It has no partial dependencies.|D
+Which type of join returns all rows from the left table, and the matched rows from the right table?|Inner Join|Full Outer Join|Left Outer Join|Right Outer Join|C
+In the context of the relational model, what is a **tuple**?|A column of a table|A property of a relation|A row of a table|A constraint on the data|C
+Which of the following is an example of a **Data Manipulation Language (DML)** command?|CREATE TABLE|GRANT|SELECT|ALTER TABLE|C
+If a transaction is reading data that has been modified by another concurrent transaction, but not yet committed, this can lead to what type of problem?|Lost Update Problem|Dirty Read Problem|Unrepeatable Read Problem|Phantom Read Problem|B
+What is the time complexity for searching a record using a **Primary Key** in a B-Tree based index?|$O(n)$|$O(1)$|$O(\log n)$|$O(n^2)$|C
+Which key uniquely identifies a row in a table but is NOT the Primary Key?|Foreign Key|Super Key|Candidate Key|Alternate Key|D
+What is the main goal of achieving **Third Normal Form (3NF)**?|To eliminate all partial dependencies.|To eliminate transitive dependencies.|To ensure all attributes are atomic.|To eliminate multi-valued dependencies.|B
+In a database, the entire structure of the data, including table names, columns, and data types, is stored in the:|Data Dictionary (Metadata)|Index File|Transaction Log|Schema File|A
+The concept of **data independence** is achieved in a three-schema architecture. What are the three levels of schema?|Logical, Physical, View|Internal, Conceptual, External|File, Block, Record|Table, Attribute, Domain|B
+Which of the following clauses is used to filter records **after** grouping in a SELECT statement?|WHERE|GROUP BY|ORDER BY|HAVING|D
+A relationship where an instance of an entity $A$ is associated with at most one instance of entity $B$, and an instance of $B$ is associated with at most one instance of $A$ is called:|One-to-Many|Many-to-Many|One-to-One|Many-to-One|C
+What is the default isolation level in most relational database systems?|Read Uncommitted|Serializable|Repeatable Read|Read Committed|D
+The **Referential Integrity** constraint is mainly enforced through the use of which type of key?|Primary Key|Candidate Key|Super Key|Foreign Key|D
+If a relation $R$ has a functional dependency $X \to Y$, and $Y$ is a non-prime attribute, and $X$ is a proper subset of a Candidate Key, this constitutes a:|Transitive Dependency|Partial Dependency|Multi-valued Dependency|Join Dependency|B
+Which component of a DBMS is responsible for determining the most efficient way to execute a given query?|Buffer Manager|Transaction Manager|Query Optimizer|Disk Manager|C
