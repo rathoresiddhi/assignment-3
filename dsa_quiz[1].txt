@@ -1,0 +1,21 @@
+In a **doubly linked list**, each node contains two pointers. What is the main advantage of this structure over a singly linked list?|Reduced memory usage|Faster searching for elements|Ability to traverse the list in both forward and backward directions|Guaranteed constant time access to any element|C
+What is the primary difference between a **Complete Binary Tree** and a **Full Binary Tree**?|A Full Binary Tree has all nodes filled, while a Complete Binary Tree only has leaves at the same level.|A Full Binary Tree requires every node to have 0 or 2 children; a Complete Binary Tree fills all levels except possibly the last, from left to right.|A Complete Binary Tree is always a Full Binary Tree, but a Full Binary Tree is not always complete.|There is no difference; the terms are used interchangeably.|B
+In the context of **graphs**, what does **Breadth-First Search (BFS)** use to keep track of the vertices to be visited?|A Stack|An Array|A Min-Heap|A Queue|D
+Which of the following is an advantage of a **linked list** over an array?|Faster random access to any element|Contiguous memory allocation|No need to specify the size at the time of creation|More efficient memory utilization (less overhead)|C
+The average-case time complexity for inserting an element into a **Binary Search Tree (BST)** of height $h$ is:|$O(1)$|$O(n)$|$O(\log n)$ or $O(h)$|$O(n^2)$|C
+Which sorting algorithm performs the **minimum** number of swaps in the best case, where the input array is already sorted?|Selection Sort|Insertion Sort|Quick Sort|Bubble Sort|B
+What is the best way to represent a **sparse graph** (a graph with relatively few edges) in memory?|Adjacency Matrix|Incidence Matrix|Adjacency List|Edge List|C
+Which of the following data structures is typically used for implementing a **recursive function call stack**?|Queue|Heap|Stack|Circular Linked List|C
+The operation of adding an element to a **Queue** is called:|Push|Pop|Enqueue|Dequeue|C
+What is the space complexity of **Merge Sort**?|$O(1)$|$O(\log n)$|$O(n)$|$O(n^2)$|C
+Which concept is used to handle **collisions** in a hash table where a linked list of entries is maintained at each array index (bucket)?|Linear Probing|Quadratic Probing|Separate Chaining|Rehashing|C
+A **Max Heap** is a complete binary tree where the value of a node is always **[BLANK]** the values of its children.|smaller than|equal to|greater than or equal to|strictly greater than|C
+Which algorithm is a classic example of a **Divide and Conquer** paradigm?|Selection Sort|Dijkstra's Algorithm|Merge Sort|Insertion Sort|C
+What is the time complexity for inserting an element at the **beginning** of a **singly linked list** with $n$ nodes?|$O(n)$|$O(\log n)$|$O(n \log n)$|$O(1)$|D
+The technique of using a smaller problem's solution to solve a larger instance of the same problem is known as:|Brute Force|Greedy Approach|Recursion|Backtracking|C
+Which of the following is considered a **linear** data structure?|Array|AVL Trees|Binary Trees|Graphs|A
+The time complexity for searching an element in a **hash table** in the best and average case, assuming a good hash function and minimal collisions, is:|$O(n)$|$O(n \log n)$|$O(1)$|$O(\log n)$|C
+Which traversal technique for a **Binary Search Tree (BST)** always outputs the nodes in **non-decreasing** (sorted) order?|Preorder Traversal|Postorder Traversal|Level-order Traversal|Inorder Traversal|D
+A **stack** data structure is typically implemented using the principle of:|FIFO (First-In, First-Out)|LIFO (Last-In, First-Out)|LILO (Last-In, Last-Out)|FILO (First-In, Last-Out)|B
+What is the **worst-case time complexity** of **Quick Sort**?|$O(\log n)$|$O(n \log n)$|$O(n)$|$O(n^2)$|D
+
